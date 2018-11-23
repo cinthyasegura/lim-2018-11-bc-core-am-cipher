@@ -9,6 +9,29 @@
     <div id="root">
       <h1>Hola mundo!</h1>
     </div>
+
+    <div class="container">
+      <div id="first-page">
+      <h2>BIENVENIDO</h2>
+      <button id="btn-start">Start</button>
+      </div>
+
+      <div id="second-page" style="display:none">
+        <form>
+          Ingresa tu clave: <br /><input type="number"  id="offset" ><br /><br />
+          <textarea id="box-1" placeholder="Ingresa tu mensaje" cols="50" rows="10"></textarea><br /><br />
+          <textarea id="box-2" cols="50" rows="10"></textarea><br /><br />
+        </form>
+              <div class="buttons">
+                  <button id="btn-encr">Encriptar</button>
+                  <button id="btn-decr">Desencriptar</button>
+                  <button id="btn-back">Volver</button>  
+              </div>
+      </div>
+      
+          <p id="paragraph"></p>
+      
+  </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
