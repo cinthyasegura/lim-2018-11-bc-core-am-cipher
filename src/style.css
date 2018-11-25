@@ -1,0 +1,104 @@
+/*@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";*/
+
+.login-input {
+    height: 30px;
+    padding: 0px;
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Roboto', 'FontAwesome', sans-serif;  
+}
+
+#inputs {
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    right: 50%;    
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/BlankMap-World-1970.png");
+    background-repeat: no-repeat;
+    background-color:#ffffff;
+    background-size: 100%;
+}
+.container { 
+  font-family:'Roboto', sans-serif;
+  display: flex;
+  width: 580px; 
+  height: 350px;
+  margin: 50px 40px 60px 300px; 
+  /*display: block;*/
+  background: #f5f5f0;
+  padding: 50px 90px 100px 90px;
+  box-shadow: 0 4px 15px 3px #95a5a6;
+}
+
+
+ 
+button {
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #95a5a6;
+} 
+
+  
+#btn-start {
+    background-color: #4CAF50;
+    position: relative;
+    top: 80%;
+    left: 155%;
+      
+} 
+#btn-encr {
+    background-color: #80ffaa; 
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    /*right: 70%; */
+    padding: 10px 20px 10px 20px;
+}
+#btn-decr {
+    background-color: #ff944d;
+    position: absolute;
+    top: 40%;
+    left: 44%;  
+}
+#btn-back {
+    background-color: #c2c2a3;
+    position: absolute;
+    top: 68%;
+    left: 37%;
+    right: 50%;   
+}
+#btn-erase {
+    position: absolute;
+    top: 40%;
+    left: 55%;   
+}
+#box-1 {
+    position: absolute;
+    top: 23%;
+    left: 35%;
+}
+#box-2 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+#offset-box {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+/*.buttons {
+    display: flex;
+    flex-flow: column wrap;  
+
+}

@@ -4,32 +4,41 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1></h1>
     </div>
 
     <div class="container">
       <div id="first-page">
-      <h2>BIENVENIDO</h2>
-      <button id="btn-start">Start</button>
+      
+        <div id="inputs">
+         Usuario: <br /><input class="login-input" type="text" placeholder="&#61447;"/> <br/>
+         Contraseña: <br /> <input class="login-input" type="password" placeholder="&#61475;"/> <br/>
+        </div>
+        <button id="btn-start">Iniciar sesión</button>
       </div>
 
       <div id="second-page" style="display:none">
-        <form>
-          Ingresa tu clave: <br /><input type="number"  id="offset" ><br /><br />
-          <textarea id="box-1" placeholder="Ingresa tu mensaje" cols="50" rows="10"></textarea><br /><br />
-          <textarea id="box-2" cols="50" rows="10"></textarea><br /><br />
+        <form id="boxes">
+          <div id="offset-box">
+          Ingresa tu clave <br /><input type="number"  id="offset" min="1"><br /><br />
+          </div>
+          <textarea id="box-1" placeholder="Ingresa tu mensaje" cols="50" rows="5"></textarea>
+          <textarea id="box-2" cols="50" rows="5"></textarea>
         </form>
+         
               <div class="buttons">
                   <button id="btn-encr">Encriptar</button>
                   <button id="btn-decr">Desencriptar</button>
-                  <button id="btn-back">Volver</button>  
+                  <button id="btn-back">Volver</button> 
+                  <button id="btn-erase">Limpiar</button>
               </div>
       </div>
       
-          <p id="paragraph"></p>
+          
       
   </div>
     <script src="cipher.js"></script>

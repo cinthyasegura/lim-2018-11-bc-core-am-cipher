@@ -1,7 +1,7 @@
 window.cipher = {
 
-  encode: (offset, text) => {
-    const str = text.toUpperCase();
+  encode: (offset, string) => {
+    const str = string.toUpperCase();
     let solved = [];
     for (i=0; i<str.length; i++){
         const numAscii = str.charCodeAt(i);
@@ -16,8 +16,8 @@ window.cipher = {
   },
 
 
-  decode: (offset, text) => {
-    const strEncrypt = text.toUpperCase();
+  decode: (offset, string) => {
+    const strEncrypt = string.toUpperCase();
     let solution = [];
     for (i=0; i<strEncrypt.length; i++){
      const asciiNum = strEncrypt.charCodeAt(i);

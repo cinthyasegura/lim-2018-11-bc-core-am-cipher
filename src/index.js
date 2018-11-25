@@ -1,7 +1,38 @@
 const offset = document.getElementById("offset");// si se le pone .value coge como valor inicial = 0
 const box1 = document.getElementById("box-1");
 const box2 = document.getElementById("box-2");
+const btnStart = document.getElementById("btn-start");
 const btnEncr = document.getElementById("btn-encr");
 const btnDecr = document.getElementById("btn-decr");
 const btnBack = document.getElementById("btn-back");
-const paragraph = document.getElementById("paragraph");
+const btnErase = document.getElementById("btn-erase");
+
+
+btnStart.addEventListener("click", () => {
+    document.getElementById("first-page").style.display = "none";
+    document.getElementById("second-page").style.display = "block";
+});
+
+
+btnEncr.addEventListener("click", () => {
+    const a = parseInt(offset.value);
+    const b = box1.value;
+    const result = cipher.encode(a, b);
+    document.getElementById("box-2").value = result;
+});
+
+   
+btnDecr.addEventListener("click", () => {
+    const offsetValue = parseInt(offset.value);
+    const box1Value = box1.value;
+    const decrypt = cipher.decode(offsetValue, box1Value);
+    document.getElementById("box-2").value = decrypt;
+});
+
+btnErase.addEventListener("click", () => {
+    document.getElementById("boxes").reset();
+});
+   
+btnBack.addEventListener("click", () => {
+    window.location.href=window.location.href
+});
