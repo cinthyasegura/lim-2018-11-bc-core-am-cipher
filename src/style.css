@@ -10,32 +10,66 @@
 
 #inputs {
     position: absolute;
-    top: 37%;
-    left: 37%;
+    top: 48%;
+    left: 33%;
     right: 50%;    
+}
+img {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    width: 88%;
+    height: 40%;
+
 }
 
 body {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/BlankMap-World-1970.png");
+    background-image: url("http://inn.spb.ru/images/100/DSC100119044.jpg");
     background-repeat: no-repeat;
-    background-color:#ffffff;
+    background-color: black;
     background-size: cover;
 }
 .container { 
-  font-family:'Roboto', sans-serif;
+    /*background-image: url("http://subirimagen.me/uploads/20181126204409.jpg");*/
+    background-size: 50%; 
+    font-family:'Roboto', sans-serif;
   position: absolute;
   /*display: flex;*/   
   width: 40%; 
-  height: 50%;
-  margin: 50px 60px 60px 350px;
+  height: 60%;
+  margin: 38px 60px 60px 350px;
   /*display: block;*/
-  background: #f5f5f0;
+  background: #d9d9d9;
   padding: 50px 90px 100px 90px;
-  box-shadow: 0 4px 15px 3px #95a5a6;
+  box-shadow: 0 4px 15px 3px #4d4d4d;
  ;  
 }
+.meta {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
 
-
+h1 {
+    background: rgba(51, 51, 51, 0.5);
+    padding: 12px 18px 12px;
+    margin-bottom: 0;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+h2 {
+    background: rgba(51, 51, 51, 0.5);
+    padding: 13px 18px 11px;
+    font-size: 1.1em;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
 
  
 button {
@@ -49,50 +83,63 @@ button {
     border-radius: 5px;
     /*box-shadow: 0 4px #95a5a6;*/
 } 
-
+#instruction {
+    background-color:#0088cc;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    right: 50%;
+    box-shadow: 0 4px #005580;   
+}
   
+#btn-login {
+    background-color: #00cc66;
+    position: absolute;
+    top: 75%;
+    left: 1%;
+    box-shadow: 0 4px #00802b;    
+} 
 #btn-start {
     background-color: #00cc66;
     position: absolute;
-    top: 65%;
-    left: 45%;
-    box-shadow: 0 4px #00802b;
-      
+    top: 77%;
+    left: 34%;
+    box-shadow: 0 4px #00802b;    
 } 
 #btn-encr {
-    background-color: #286090; 
+    background-color: #0088cc; 
     position: absolute;
     top: 44%;
-    left: 25%;
+    left: 24%;
     padding: 10px 20px 10px 20px;
-    box-shadow: 0 4px #002266;
+    box-shadow: 0 4px #005580;
 }
 #btn-decr {
-    background-color: #C9302C;
+    background-color:  #00b359;
     position: absolute;
     top: 44%;
     left: 38%; 
-    box-shadow: 0 4px #862d2d; 
+    box-shadow: 0 4px #00664d; 
 }
 #btn-erase {
-    background-color:#a6a6a6;
+    background-color:#999999;
     position: absolute;
     top: 44%;
-    left: 62%;
-    box-shadow: 0 4px #95a5a6;   
+    left: 58%;
+    box-shadow: 0 4px #595959;   
 }
-#btn-back {
-    background-color:#a6a6a6;
+.btn-back {
+    background-color:#999999;
     position: absolute;
-    top: 75%;
+    top: 77%;
     left: 43%;
     right: 50%;
-    box-shadow: 0 4px #95a5a6;   
+    box-shadow: 0 4px #595959;   
 }
 #box-1 {
     position: absolute;
-    top: 25%;
-    left: 20%;
+    top: 23%;
+    left: 20%; 
 }
 #box-2 {
     position: absolute;
@@ -101,7 +148,7 @@ button {
 }
 #offset-box {
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 20%;
 }
 

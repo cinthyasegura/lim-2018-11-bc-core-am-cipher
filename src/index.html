@@ -8,17 +8,32 @@
   </head>
   <body>
     <div id="root">
-      <h1></h1>
     </div>
 
     <div class="container">
-      <div id="first-page">
+      <div id="welcome-page">
+         <img src="http://subirimagen.me/uploads/20181126204409.jpg"> 
+          
+          <div class="meta">
+            <h1>Programa de colaboración eficaz.</h1>
+            <h2>Buscamos tu seguridad.</h2>
+              <div class="category">
+                <button id="btn-login">Iniciar sesión</button>
+                <button id="instruction">Instrucciónes</button>
+              </div>
+          </div>
+      </div>
+
+
+      <div id="first-page" style="display:none">
+        <img src="http://subirimagen.me/uploads/20181126204409.jpg"> 
       
         <div id="inputs">
          Usuario: <br /><input class="login-input" type="text" placeholder="&#61447;"/> <br/>
          Contraseña: <br /> <input class="login-input" type="password" placeholder="&#61475;"/> <br/>
         </div>
-        <button id="btn-start">Iniciar sesión</button>
+        <button id="btn-start">Iniciar</button>
+        <button class="btn-back">Volver</button>
       </div>
 
       <div id="second-page" style="display:none">
@@ -33,7 +48,7 @@
               <div class="buttons">
                   <button id="btn-encr">Encriptar</button>
                   <button id="btn-decr">Desencriptar</button>
-                  <button id="btn-back">Volver</button> 
+                  <button class="btn-back">Volver</button> 
                   <button id="btn-erase">Limpiar</button>
               </div>
       </div>

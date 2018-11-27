@@ -1,13 +1,18 @@
 const offset = document.getElementById("offset");// si se le pone .value coge como valor inicial = 0
 const box1 = document.getElementById("box-1");
 const box2 = document.getElementById("box-2");
+const btnLogin = document.getElementById("btn-login");
 const btnStart = document.getElementById("btn-start");
 const btnEncr = document.getElementById("btn-encr");
 const btnDecr = document.getElementById("btn-decr");
-const btnBack = document.getElementById("btn-back");
+const btnBack = document.getElementsByClassName("btn-back");
 const btnErase = document.getElementById("btn-erase");
 
 
+btnLogin.addEventListener("click", () => {
+    document.getElementById("welcome-page").style.display = "none";
+    document.getElementById("first-page").style.display = "block";
+});
 btnStart.addEventListener("click", () => {
     document.getElementById("first-page").style.display = "none";
     document.getElementById("second-page").style.display = "block";
@@ -33,6 +38,9 @@ btnErase.addEventListener("click", () => {
     document.getElementById("boxes").reset();
 });
    
-btnBack.addEventListener("click", () => {
-    window.location.href=window.location.href
+btnBack[0].addEventListener("click", () => {
+    window.location.href=window.location.href;
+});
+btnBack[1].addEventListener("click", () => {
+    window.location.href=window.location.href;
 });
