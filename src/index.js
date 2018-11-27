@@ -1,6 +1,5 @@
 const offset = document.getElementById("offset");// si se le pone .value coge como valor inicial = 0
 const box1 = document.getElementById("box-1");
-const box2 = document.getElementById("box-2");
 const btnLogin = document.getElementById("btn-login");
 const btnStart = document.getElementById("btn-start");
 const btnEncr = document.getElementById("btn-encr");
@@ -39,8 +38,9 @@ btnErase.addEventListener("click", () => {
 });
    
 btnBack[0].addEventListener("click", () => {
-    window.location.href=window.location.href;
+    window.location.href = 'index.html';
 });
+
 btnBack[1].addEventListener("click", () => {
-    window.location.href=window.location.href;
+    window.location.href = 'index.html';
 });

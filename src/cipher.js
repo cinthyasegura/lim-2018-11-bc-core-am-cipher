@@ -3,7 +3,7 @@ window.cipher = {
   encode: (offset, string) => {
     //const str = string.toUpperCase();
     let solved = [];
-    for (i=0; i<string.length; i++){
+    for (let i=0; i<string.length; i++){
         const numAscii = string.charCodeAt(i);
     if (numAscii >= 65 && numAscii <= 90) {
         const strEncr = String.fromCharCode((numAscii - 65 + offset) % 26 + 65);
@@ -23,8 +23,8 @@ window.cipher = {
   decode: (offset, string) => {
     //const strEncrypt = string.toUpperCase();
     let solution = [];
-    for (i=0; i<string.length; i++){
-     const asciiNum = string.charCodeAt(i);
+    for (let j=0; j<string.length; j++){
+     const asciiNum = string.charCodeAt(j);
     if (asciiNum >= 65 && asciiNum <= 90) {
       const strDecr = String.fromCharCode((asciiNum - 90 - offset) % 26 + 90);
       solution.push(strDecr); 
