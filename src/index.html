@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   </head>
   <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <div id="root">
     </div>
 
-    <div class="container">
+    
       <div id="welcome-page">
          <img src="http://subirimagen.me/uploads/20181126204409.jpg"> 
           
@@ -20,12 +20,28 @@
             <h2>Garantizamos tu seguridad.</h2>
               <div class="category">
                 <button id="btn-login">Iniciar sesión</button>
-                <button id="instruction">Instrucciónes</button>
+                <button id="instruction">Instrucciones</button>
               </div>
           </div>
       </div>
 
 
+
+
+          <div class="bg-modal">
+            <div class="modal-content">
+            <div id="close">+</div>
+                <h3>Instrucciones</h3>
+                <ol id="list">
+                  <li>Inicia sesión con tu usuario y contraseña </li>
+                  <li>Escribe tu mensaje y apunta tu clave</li>
+                  <li>Recuerda tener tu clave para descifrar el mensaje</li>   
+                 </ol>
+             </div>   
+          </div>
+
+
+    <div class="container">    
       <div id="first-page" style="display:none">
         <img src="http://subirimagen.me/uploads/20181126204409.jpg"> 
       
@@ -47,15 +63,13 @@
         </form>
          
               <div class="buttons">
-                  <button id="btn-encr">Encriptar</button>
-                  <button id="btn-decr">Desencriptar</button>
+                  <button id="btn-encr">Cifrar</button>
+                  <button id="btn-decr">Descifrar</button>
                   <button class="btn-back">Volver</button> 
                   <button id="btn-erase">Limpiar</button>
               </div>
       </div>
-      
-          
-      
+         
   </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

@@ -10,12 +10,21 @@ const btnErase = document.getElementById("btn-erase");
 
 btnLogin.addEventListener("click", () => {
     document.getElementById("welcome-page").style.display = "none";
+    document.getElementsByClassName("container")[0].style.display = "block";
     document.getElementById("first-page").style.display = "block";
 });
 btnStart.addEventListener("click", () => {
     document.getElementById("first-page").style.display = "none";
     document.getElementById("second-page").style.display = "block";
 });
+
+
+document.getElementById("instruction").addEventListener("click", () => {
+    document.getElementsByClassName("bg-modal")[0].style.display = "block";
+  });
+  document.getElementById("close").addEventListener("click", ()=> {
+     document.getElementsByClassName("bg-modal")[0].style.display = "none";
+  });
 
 
 btnEncr.addEventListener("click", () => {

@@ -18,35 +18,34 @@ img {
     position: absolute;
     top: 5%;
     left: 6%;
-    width: 88%;
-    height: 38%;
+    width: 85%;
+    height: 35%;
 
 }
 
 body {
-    background-image: url("http://inn.spb.ru/images/100/DSC100119044.jpg");
+    background-image: url("https://www.pymnts.com/wp-content/uploads/2016/09/druva-enterprise-data-security-cybersecurity-funding-round-investment-venture-capital-series-e-india.jpg");
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container { 
-    /*background-image: url("http://subirimagen.me/uploads/20181126204409.jpg");*/
-    background-size: 50%; 
-    font-family:'Roboto', sans-serif;
-  position: absolute;
-  /*display: flex;*/   
+  background-size: 50%; 
+  font-family:'Roboto', sans-serif;
+  position: absolute;   
   width: 40%; 
   height: 60%;
-  margin: 38px 60px 60px 350px;
-  /*display: block;*/
-  background: #ffffe6;
-  padding: 50px 90px 100px 90px;
-  box-shadow: 0 4px 15px 3px #4d4d4d;
- ;  
+  margin: 0 60px 0 350px;
+  background:	white;
+  padding: 50px 90px 200px 90px;
+  box-shadow: 0 4px 15px 3px #333333;
+  display: none;
 }
 .meta {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
     color: white;
     display: flex;
@@ -60,14 +59,18 @@ h1 {
     background: rgba(51, 51, 51, 0.5);
     padding: 12px 18px 12px;
     margin-bottom: 0;
+    position: relative;
+    left: 12%;
     font-size: 1.8em;
     font-weight: 300;
 }
 h2 {
     background: rgba(51, 51, 51, 0.5);
-    padding: 13px 18px 11px;
+    padding: 13px 17px 11px;
+    position: relative;
+    left: 12%;
     font-size: 1.1em;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     font-weight: 300;
 }
 
@@ -81,28 +84,26 @@ button {
     outline: none;
     border: none;
     border-radius: 5px;
-    /*box-shadow: 0 4px #95a5a6;*/
 } 
 #instruction {
     background-color:#0088cc;
     position: absolute;
-    top: 75%;
-    left: 25%;
-    right: 50%;
+    bottom: 120%;
+    left: 40%;
     box-shadow: 0 4px #005580;   
 }
   
 #btn-login {
     background-color: #00cc66;
     position: absolute;
-    top: 75%;
-    left: 1%;
+    bottom: 120%;
+    left: 15%;
     box-shadow: 0 4px #00802b;    
 } 
 #btn-start {
     background-color: #00cc66;
     position: absolute;
-    top: 77%;
+    top: 72%;
     left: 34%;
     box-shadow: 0 4px #00802b;    
 } 
@@ -118,20 +119,20 @@ button {
     background-color:  #00b359;
     position: absolute;
     top: 44%;
-    left: 38%; 
+    left: 35%; 
     box-shadow: 0 4px #00664d; 
 }
 #btn-erase {
-    background-color:#c2c2a3;
+    background-color: #a6a6a6;
     position: absolute;
     top: 44%;
     left: 58%;
     box-shadow: 0 4px #595959;   
 }
 .btn-back {
-    background-color:#adad85;
+    background-color:#8c8c8c;
     position: absolute;
-    top: 77%;
+    top: 72%;
     left: 43%;
     right: 50%;
     box-shadow: 0 4px #595959;   
@@ -152,8 +153,39 @@ button {
     left: 20%;
 }
 
-/*.buttons {
-    display: flex;
-    flex-flow: column wrap;  
-
+.bg-modal{
+  width: 100%;
+  height: 60%;
+  background-color: rgbo(0, 0, 0, 0.7);
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-content{
+  width: 450px;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#list {
+  width: 70%;
+  display: block; 
+  text-align: left;
+}
+#close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 40px;
+  transform: rotate(45deg);
+  cursor: pointer;
 }
