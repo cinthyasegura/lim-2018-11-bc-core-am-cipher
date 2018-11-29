@@ -14,17 +14,7 @@ describe('cipher', () => {
       assert.equal(cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcd" ), "HIJKLMNOPQRSTUVWXYZABCDEFG hijk" );
     });
 
-/*it('debería retornar "HIJ KLM" para "ABC DEF" con offest 33', () => {
-      assert.equal(cipher.encode(33, "ABC DEF abc def" ), "HIJ KLM hij klm" );
-    });*/
-
-
   });
-
-
-
-
-
 
 
 

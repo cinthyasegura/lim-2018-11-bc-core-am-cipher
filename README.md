@@ -6,8 +6,6 @@ La protección debe alcanzar cualquier forma de identificación del testigo para
 Como datos a proteger tenemos los siguientes:
 •	Identidad y datos personales que puedan servir para su identificación.
 •	Lugar de residencia y trabajo.
-•	Información de citaciones y notificaciones o sede de la Fiscalía donde sea sitado.
- etc.
+•	Información de citaciones y notificaciones o sede de la Fiscalía donde sea sitado etc.
 
-La funcionalidad de este trabajo sería implementado para poder encriptar estos datos y
-así también la importancia de estos colaboradores ante cualquier caso 
+La funcionalidad de este trabajo sería implementado para poder encriptar los datos de los colaboradores y testigos para diferentes tipos de crimenes y así evitar descubrir la identidad de los colaboradores y teniendo esta seguridad se espera que mas personas se puedan sumar y ayudar a resolver diversos crimenes.

@@ -8,7 +8,6 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-
     background-size: cover;
     color: #333333;
 }
@@ -51,42 +50,10 @@
     color: black;
     transition: 0.6s ease;
   }
-
-.login-input {
-    height: 30px;
-    padding: 0px;
-    font-size: 20px;
-    margin: 5px 0;
-    font-family: 'FontAwesome', sans-serif;  
-}
-#inputs {
-    position: absolute;
-    top: 48%;
-    left: 33%;
-    right: 50%;    
-}
-img {
-    position: absolute; 
-    top: 5%;
-    left: 6%;
-    width: 85%;
-    height: auto;
-}
-.container { 
-  background-size: 50%; 
-  position: relative;   
-  width: 40%; 
-  height: 60%;
-  margin: 0 60px 0 350px;
-  background:	white;
-  padding: 50px 90px 200px 90px;
-  box-shadow: 0 4px 15px 3px #333333;
-  display: none;
-}
-.meta {
+  .meta {
     position: absolute;
     bottom: 10px;
-    left: 20px;
+    left: 15px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -98,7 +65,7 @@ h1 {
     padding: 12px 18px 12px;
     margin-bottom: 0;
     position: relative;
-    left: 12%;
+    left: 6%;
     font-size: 1.8em;
     font-weight: 300;
 }
@@ -106,38 +73,38 @@ h2 {
     background: rgba(51, 51, 51, 0.5);
     padding: 13px 17px 11px;
     position: relative;
-    left: 12%;
+    left: 6%;
     font-size: 1.1em;
     margin-bottom: 52px;
     font-weight: 300;
 }
-
 .bg-modal{
     width: 60%;
     height: 50%;
     background-color: rgbo(0, 0, 0, 0.7);
     position: absolute;
-    top: 32%;
-    left: 35%;
+    top: 31%;
+    left: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
     display: none;
   }
   .modal-content{
-    width: 450px;
+    width: 480px;
     height: 200px;
-    background-color: white;
-    border-radius: 5px;
-    text-align: left;
+    background-color: rgb(246, 238, 238);
+    border-radius: 15px;
     padding: 20px;
     position: relative;
     color: #333333;
+    box-shadow: 0 4px 15px 3px #333333;
   }
   #list {
     width: 70%;
     display: block; 
     text-align: left;
+    padding: 10px;
   }
   #close{
     position: absolute;
@@ -148,6 +115,38 @@ h2 {
     cursor: pointer;
   }
 
+  .container { 
+    background-size: 50%; 
+    position: relative;   
+    width: 40%; 
+    height: 60%;
+    margin: 0 60px 0 350px;
+    background:	white;
+    padding: 50px 90px 200px 90px;
+    box-shadow: 0 4px 15px 3px #333333;
+    display: none;
+  }
+
+.header-img img {
+    position: absolute; 
+    top: 5%;
+    left: 6%;
+    width: 85%;
+    height: auto;
+}
+.login-input {
+    height: 30px;
+    padding: 0px;
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'FontAwesome', sans-serif;  
+}
+#inputs {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    right: 50%;    
+}  
 button {
     cursor: pointer;
     font-size: 15px;
@@ -155,13 +154,12 @@ button {
     outline: none;
     padding: 10px 30px;  
 } 
-
 #btn-start {
     background-color: transparent;
     border: 1.5px solid #00cc66;
     color: black;
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 41%;   
 } 
 #btn-start:hover{
@@ -187,7 +185,7 @@ button {
     border: 1.5px solid #00b359;
     position: absolute;
     top: 44%;
-    left: 35%; 
+    left: 36%; 
 }
 #btn-decr:hover{
     background-color: #00b359;

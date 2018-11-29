@@ -12,8 +12,8 @@ window.cipher = {
         const strEncrLowerCase = String.fromCharCode((numAscii - 97 + offset) % 26 + 97);
         solved.push(strEncrLowerCase);
         
-    } else if (numAscii == 32) {
-        solved.push(" "); 
+    } else {
+        solved.push(string[i]); 
       }
     } 
      return solved.join(""); 
@@ -32,8 +32,8 @@ window.cipher = {
         var strDecrLowerCase = String.fromCharCode((asciiNum - 122 - offset) % 26 + 122);
       solution.push(strDecrLowerCase);
     
-    } else if (asciiNum == 32) {
-       solution.push(" ");
+    } else {
+       solution.push(string[j]);
       }
     } 
      return solution.join(""); 
