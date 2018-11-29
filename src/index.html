@@ -5,6 +5,7 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,32 +14,36 @@
 
     
       <div id="welcome-page">
-         <img src="http://subirimagen.me/uploads/20181126204409.jpg"> 
+          <div class="main">
+              <div class="logo">
+                <img src="https://www.mpfn.gob.pe/Interface/Img/logo.png">
+              </div>      
+          </div>
+              <div class="button">
+                <a href="#" id="btn-login">Inicia sesión</a>
+                <a href="#" id="btn-instruction">Instrucciones</a>
+              </div>
           
           <div class="meta">
             <h1>Programa de colaboración eficaz.</h1>
             <h2>Garantizamos tu seguridad.</h2>
-              <div class="category">
-                <button id="btn-login">Iniciar sesión</button>
-                <button id="instruction">Instrucciones</button>
-              </div>
           </div>
       </div>
 
 
 
 
-          <div class="bg-modal">
-            <div class="modal-content">
-            <div id="close">+</div>
-                <h3>Instrucciones</h3>
-                <ol id="list">
-                  <li>Inicia sesión con tu usuario y contraseña </li>
-                  <li>Escribe tu mensaje y apunta tu clave</li>
-                  <li>Recuerda tener tu clave para descifrar el mensaje</li>   
-                 </ol>
-             </div>   
-          </div>
+      <div class="bg-modal">
+        <div class="modal-content">
+          <div id="close">+</div>
+            <h3>Instrucciones</h3>
+            <ol id="list">
+              <li>Inicia sesión con tu usuario y contraseña </li>
+              <li>Escribe tu mensaje y apunta tu clave</li>
+              <li>Recuerda tener tu clave para descifrar el mensaje</li>   
+            </ol>
+          </div>   
+      </div>
 
 
     <div class="container">    
@@ -50,7 +55,7 @@
          Contraseña: <br /> <input class="login-input" type="password" placeholder="&#61475;"/> <br/>
         </div>
         <button id="btn-start">Iniciar</button>
-        <button class="btn-back">Volver</button>
+        <div class="btn-back">+</div>
       </div>
 
       <div id="second-page" style="display:none">
@@ -65,7 +70,7 @@
               <div class="buttons">
                   <button id="btn-encr">Cifrar</button>
                   <button id="btn-decr">Descifrar</button>
-                  <button class="btn-back">Volver</button> 
+                  <div class="btn-back">+</div> 
                   <button id="btn-erase">Limpiar</button>
               </div>
       </div>

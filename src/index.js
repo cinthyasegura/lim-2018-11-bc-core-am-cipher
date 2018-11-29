@@ -19,7 +19,7 @@ btnStart.addEventListener("click", () => {
 });
 
 
-document.getElementById("instruction").addEventListener("click", () => {
+document.getElementById("btn-instruction").addEventListener("click", () => {
     document.getElementsByClassName("bg-modal")[0].style.display = "block";
   });
   document.getElementById("close").addEventListener("click", ()=> {
