@@ -29,7 +29,7 @@ window.cipher = {
       const strDecr = String.fromCharCode((asciiNum - 90 - offset) % 26 + 90);
       solution.push(strDecr); 
     } else if(asciiNum >= 97 && asciiNum <= 122) {
-        var strDecrLowerCase = String.fromCharCode((asciiNum - 122 - offset) % 26 + 122);
+        const strDecrLowerCase = String.fromCharCode((asciiNum - 122 - offset) % 26 + 122);
       solution.push(strDecrLowerCase);
     
     } else {
