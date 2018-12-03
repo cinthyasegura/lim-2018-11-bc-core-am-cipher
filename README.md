@@ -6,10 +6,10 @@ La protección debe alcanzar cualquier forma de identificación del testigo para
 Como datos a proteger tenemos los siguientes:
 •	Identidad y datos personales que puedan servir para su identificación.
 •	Lugar de residencia y trabajo.
-•	Información de citaciones y notificaciones o sede de la Fiscalía donde sea citado etc.
+•	Información de citaciones sede de la Fiscalía donde sera la audiencia, fecha etc.
 
 Funcionalidad:
-Este proyecto sería implementado en la fiscalía de la nación por el fiscal y los colaboradores.
+Este proyecto sería implementado en la fiscalía de la nación por el fiscal y/o juez encargado del caso y los colaboradores.
 
-La persona encargada de la investigación deberá crear una cuenta a los testigos, colaboradores para que puedan ingresar y poder descifrar los mensajes con clave que les puedan enviar de fiscalía ejem: información de una citación lugar, hora etc. Así tambien podría ser utilizado por los encargados de la investigación para poder conservar los datos del testigo eficaz o colaborador. Teniendo esta seguridad se espera que más personas se puedan sumar y ayudar en el proceso de investigación y poder capturar asi a más delincuentes.
+La persona encargada de la investigación deberá crear una cuenta a los testigos y/o colaboradores para que puedan ingresar y poder descifrar los mensajes con clave que les puedan enviar de fiscalía ejem: información de una citación lugar, hora etc. Así tambien podría ser utilizado por los encargados de la investigación para poder conservar los datos del testigos y  colaboradores. Teniendo esta seguridad se espera que más personas se puedan sumar y ayudar en el proceso de investigación y poder capturar asi a más delincuentes.
 
