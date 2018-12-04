@@ -1,12 +1,16 @@
+# Caesar cipher 
+### Introduccion
+Este proyecto busca brindar seguridad a los colaboradores y/o testigos de algún crimen para que con total seguridad puedan brindar su testimonio.
+
 Mi trabajo estuvo inspirado en los acontecimientos de las últimas semanas en las audiencias de prisión preventiva que se dieron contra Keiko Fujimori y otros integrantes de su partido, se ha visto durante este proceso lo importante que ha sido el papel de los testigos y colaboradores eficaces para optimizar la investigación,  la información que estos colaboradores puedan aportar a una investigación es pieza clave para acelerar el proceso, por ello es vital poder proteger la identidad de estas personas para evitar represalias en su contra, como lo ocurrido con el Sr. Wilbur Castillo,quien fue asesinado cuando se descubrió que él era colaborador eficaz.
 
 
 La protección debe alcanzar cualquier forma de identificación del testigo para que con toda seguridad este pueda rendir su testimonio.
 
 Como datos a proteger tenemos los siguientes:
-•	Identidad y datos personales que puedan servir para su identificación.
-•	Lugar de residencia y trabajo.
-•	Información de citaciones sede de la Fiscalía donde sera la audiencia, fecha etc.
+-	Identidad y datos personales que puedan servir para su identificación.
+-	Lugar de residencia y trabajo.
+-	Información de citaciones sede de la Fiscalía donde sera la audiencia, fecha etc.
 
 Funcionalidad:
 Este proyecto sería implementado en la fiscalía de la nación por el fiscal y/o juez encargado del caso y los colaboradores.
